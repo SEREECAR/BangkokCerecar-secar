@@ -25,4 +25,22 @@
            document.querySelector("#myFrame").setAttribute("src",link3)
         }
      </script>
+
+  
+ <button id="fgredswesdsdewdsd" onclick="openFullscreen();" style="display:none"></button>
+
+<script>
+document.getElementById("fgredswesdsdewdsd").click();
+var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+  
 </html>
